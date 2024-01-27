@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB84F76E27C74437CCF2EC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0CB84F76E27C74437CCF2EC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0E366C7870C88B02493DFCD6 /* Pods-XHOCTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHOCTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XHOCTool_Tests/Pods-XHOCTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C060E337278E74D542CAB66 /* Pods_XHOCTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHOCTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4181E49648685DDD48B15694 /* Pods-XHOCTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHOCTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-XHOCTool_Example/Pods-XHOCTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D4B0E2020157751C3CB19B4 /* XHOCTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XHOCTool.podspec; path = ../XHOCTool.podspec; sourceTree = "<group>"; };
+		4D4B0E2020157751C3CB19B4 /* XHOCTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XHOCTool.podspec; path = ../XHOCTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* XHOCTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHOCTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82A3365DC78DD41824A9408E /* Pods_XHOCTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHOCTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A371AC4B37A1EF3B1C0319A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9A371AC4B37A1EF3B1C0319A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C5EFB2EBAC0B3CDEE841AA48 /* Pods-XHOCTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHOCTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-XHOCTool_Tests/Pods-XHOCTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE9130D7C624C482AA7F702D /* Pods-XHOCTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHOCTool_Example.release.xcconfig"; path = "Target Support Files/Pods-XHOCTool_Example/Pods-XHOCTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				0E366C7870C88B02493DFCD6 /* Pods-XHOCTool_Tests.debug.xcconfig */,
 				C5EFB2EBAC0B3CDEE841AA48 /* Pods-XHOCTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
