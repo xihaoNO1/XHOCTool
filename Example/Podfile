@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XHOCTool_Example' do
+  pod 'XHOCTool', :path => '../'
+
+  target 'XHOCTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
