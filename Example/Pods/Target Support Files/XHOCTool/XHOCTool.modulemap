@@ -1,0 +1,6 @@
+framework module XHOCTool {
+  umbrella header "XHOCTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

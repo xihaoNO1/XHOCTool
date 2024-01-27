@@ -1,0 +1,16 @@
+PODS:
+  - XHOCTool (0.1.0)
+
+DEPENDENCIES:
+  - XHOCTool (from `../`)
+
+EXTERNAL SOURCES:
+  XHOCTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHOCTool: 82d007c0256085a3a427de0ff3a9bd676daddc96
+
+PODFILE CHECKSUM: ebb6eebf7cb73bafdebfd93485db93e791c96475
+
+COCOAPODS: 1.12.1
